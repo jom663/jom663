@@ -14,6 +14,51 @@ h2 {text-align: right;
 font-style: italic;
 }
 
-p{ text-align: left;
+p {text-align: left;
 padding: 10px;
  }
+
+div{
+  margin-bottom: 15px }
+
+@keyframes flicker { 0% { opacity: 0;}
+   100% { opacity: 1;}
+  }
+#flick1 {
+  animation: flicker 2s ease alternate infinite;
+}
+#flick2 {
+  animation: flicker 3s ease alternate infinite;
+}#flick3 {
+  animation: flicker 5s ease alternate infinite;
+}#flick4{
+  animation: flicker 1s ease alternate infinite;
+}
+
+@keyframes spacingminus { 0% { letter-spacing: 0;}
+   100% { letter-spacing: -3;}
+  }
+  @keyframes spacingplus { 0% { letter-spacing: 0;}
+     100% { letter-spacing: 4;}
+    }
+.spacingminus {
+  animation: spacingminus 2s ease alternate infinite;
+}
+.spacingplus {
+  animation: spacingplus 2s ease alternate infinite;
+}
+
+@keyframes ggdark { 0% { background-color: linear-gradient(black 0%, white 100%);}
+   100% { background-color: linear-gradient(black 100%, white 0%);}
+  }
+#ggdark {
+  animation: flicker 20s ease alternate infinite;
+}
+
+@keyframes scale { 0% { font-size: 1em;}
+   100% { font-size: 0em ;}
+  }
+.scale {
+  animation: scale 20s ease alternate infinite;
+
+}
