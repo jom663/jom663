@@ -22,25 +22,17 @@ padding: 10px;
 div{
   margin-bottom: 15px }
 
-@keyframes flicker { 0% { opacity: 0;}
-   100% { opacity: 1;}
+/*flicking and fade css*/
+
+@keyframes flick { 0% { opacity: 1;}
+   100% { opacity: 0;}
   }
 
-#flick1 {
-  animation: flicker 2s ease alternate infinite;
+.flick{
+  animation: flick 1s ease alternate 7 forwards;
 }
 
-#flick2 {
-  animation: flicker 3s ease alternate infinite;
-}
-
-#flick3 {
-  animation: flicker 5s ease alternate infinite;
-}
-
-#flick4{
-  animation: flicker 1s ease alternate infinite;
-}
+.white {color:white;}
 
 @keyframes spacingminus { 0% { letter-spacing: 0;}
    100% { letter-spacing: -3;}
