@@ -1,12 +1,13 @@
 body {width: 600px;
   margin: 0 auto;
-  font-family: "optima";
+  font-family: "Times New Roman";
 }
 
 h1 {text-align: center;
 font-size: 1.5em;
 font-style: bold;
 margin-top: 20px;
+margin-bottom: 20px;
 }
 
 h2 {text-align: right;
@@ -14,7 +15,7 @@ h2 {text-align: right;
 font-style: italic;
 }
 
-p {text-align: left;
+p {text-align: center;
 padding: 10px;
  }
 
@@ -24,14 +25,20 @@ div{
 @keyframes flicker { 0% { opacity: 0;}
    100% { opacity: 1;}
   }
+
 #flick1 {
   animation: flicker 2s ease alternate infinite;
 }
+
 #flick2 {
   animation: flicker 3s ease alternate infinite;
-}#flick3 {
+}
+
+#flick3 {
   animation: flicker 5s ease alternate infinite;
-}#flick4{
+}
+
+#flick4{
   animation: flicker 1s ease alternate infinite;
 }
 
@@ -56,10 +63,75 @@ div{
   animation-delay: 2s;
 }
 
-@keyframes scale { 0% { font-size: 1em;}
-   100% { font-size: 0em ;}
-  }
-.scale {
-  animation: scale 20s ease alternate infinite;
 
+/*getting darker css*/
+
+.getdk {
+    background-color: #ffffff;
+    animation-name: getdk;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    transition-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes getdk {
+    from {background-color: #ffffff;}
+    to {background-color: #D0D0D0 ; }
+}
+
+.getdk2 {
+    background-color: #D0D0D0;
+    animation-name: getdk2;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    transition-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes getdk2 {
+    from {background-color: #D0D0D0;}
+    to {background-color: #989898 ; }
+}
+
+.getdk3 {
+    background-color: #989898;
+    animation-name: getdk3;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    transition-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes getdk3 {
+    from {background-color: #989898;}
+    to {background-color: #686868; }
+}
+
+.getdk4 {
+    background-color: #686868;
+    animation-name: getdk4;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    transition-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes getdk4 {
+    from {background-color: #686868;}
+    to {background-color: #303030; }
+}
+
+.getdk5 {
+    background-color: #303030;
+    animation-name: getdk5;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    transition-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes getdk5 {
+    from {background-color: #303030;}
+    to {background-color: #000000; }
 }
