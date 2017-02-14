@@ -1,0 +1,35 @@
+body{width: 215px;
+    height: 200px;
+    position: absolute;
+    top: 229px;
+    left: 622px;
+    background-color: lightpink;
+    font-family: "helvetica";
+}
+
+h1 {font-size: 20px;
+    color: white;
+}
+a:link {background-color: none;
+    color:palevioletred;
+    text-decoration: none;
+}
+
+a:visited {background-color: none;
+    color:palevioletred;
+    text-decoration: none;
+}
+
+a:hover {background-color: none;
+    color: white;
+	text-shadow: -2px -2px 5px palevioletred, 2px -2px 5px palevioletred,
+	 -2px 2px 5px palevioletred, 2px 2px 5px palevioletred;
+    text-decoration: none;
+}
+
+a:active {background-color: none;
+    color: white;
+	text-shadow: -1px -1px 3px palevioletred, 1px -1px 3px palevioletred,
+	 -1px 1px 3px palevioletred, 1px 1px 3px palevioletred;
+    text-decoration: none;
+}
