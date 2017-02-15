@@ -1,0 +1,86 @@
+h1 {
+    text-align: center;
+    font-family: "Lato";
+    font-size:30px;
+}
+div{width:1080px;
+    padding: 0;
+    margin: auto;
+}
+.top {
+    width:500px;
+    height: 300px;
+}
+ul {
+    list-style: none;
+    margin: 20px;
+}
+.preview {
+    position:relative;
+    width: 460px;
+    height: 288px;
+    overflow:hidden;
+    float:left;
+    padding: 0;
+    
+}
+#tavej {
+    background-color:rgb(204, 193, 161);
+    }
+#tsaie{
+    background-color:#bfab93;
+}
+#chonc {
+    background-color:#a58679;
+    }
+#iqban {
+    background-color: rgb(165, 89, 122);
+}
+#jom {
+    background-color: #b8a8b9;
+}
+#dalag {
+    background-color: #a8a8bb;
+}
+#muria {
+    background-color: #638685;
+}
+.preview p,.preview h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative
+}
+.preview p {
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.preview h2 {
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+    font-family:'Lato'
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-12px 0;
+    -webkit-transition:bottom .3s ease-in-out;
+    -moz-transition:bottom .3s ease-in-out;
+    -o-transition:bottom .3s ease-in-out;
+    transition:bottom .3s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0;
+    padding-left: 30px;
+}
