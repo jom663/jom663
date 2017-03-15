@@ -6,36 +6,32 @@ html {
 }
 body{
   margin: 0;
-  font-family: "Helvetica";}
-
+  font-family: "Helvetica";
+}
 img {
   max-width: 100%;
   height: auto;
   image-orientation: from-image;
   margin-top: 20px;
 }
-
 h1 {
   font-size: 40px;
   text-align: center;
   margin: 0 auto;
   margin-top: 20px;
 }
-
 h2 {
   font-size: 25px;
   margin-bottom: 70px;
   margin-top: 60px;
 }
-
 h3 {
   margin-bottom:4px;
   text-decoration: underline;
 }
-
 p {
-  margin: 0;}
-
+  margin: 0;
+}
 header{
   width: 100%;
   height: 60px;
@@ -46,9 +42,8 @@ header{
   margin: 0;
   padding: 10px;
 }
-
 .row {
-  display: flex;
+  /*display: flex;*/
 }
 .container {
     max-width: 1000px;
@@ -79,40 +74,39 @@ header{
 .col-12 { width: 100%; }
 
 /*feb 20 specific change*/
-.feb20 {background-color: #AEEADD}
-
-a.feb20:link {background-color: none;
-    color:black;
-    text-decoration: none;
+.feb20 {
+  background-color: #AEEADD
 }
-
-a.feb20:visited {background-color: none;
-    color:black;
-    text-decoration: none;
+a.feb20:link {
+  background-color: none;
+  color:black;
+  text-decoration: none;
 }
-
-a.feb20:hover {background-color: none;
-    color: white;
-	text-shadow: -2px -2px 5px #00664d, 2px -2px 5px #00664d,
-	 -2px 2px 5px #00664d, 2px 2px 5px #00664d;
-    text-decoration: none;
+a.feb20:visited {
+  background-color: none;
+  color:black;
+  text-decoration: none;
 }
-
-a.feb20:active {background-color: none;
-    color: white;
-	text-shadow: -1px -1px 3px #00664d, 1px -1px 3px #00664d,
-	 -1px 1px 3px #00664d, 1px 1px 3px #00664d;
-    text-decoration: none;
+a.feb20:hover {
+  background-color: none;
+  color: white;
+  text-shadow: -2px -2px 5px #00664d, 2px -2px 5px #00664d, -2px 2px 5px #00664d, 2px 2px 5px #00664d;
+  text-decoration: none;
 }
-
-.content {padding: 20px;}
-
+a.feb20:active {
+  background-color: none;
+  color: white;
+  text-shadow: -1px -1px 3px #00664d, 1px -1px 3px #00664d, -1px 1px 3px #00664d, 1px 1px 3px #00664d;
+  text-decoration: none;
+}
+.content {
+  padding: 20px;
+}
 .title {
   text-align: center;
   margin: 0 auto;
   font-size: 30px;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
