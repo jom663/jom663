@@ -125,7 +125,31 @@ a.feb20_menu:active {
   text-shadow: -1px -1px 3px #00664d, 1px -1px 3px #00664d, -1px 1px 3px #00664d, 1px 1px 3px #00664d;
   text-decoration: none;
 }
-
+.feb20_main {
+  background-color: #AEEADD
+}
+a.feb20_main:link {
+  background-color: none;
+  color:#AEEADD;
+  text-decoration: none;
+}
+a.feb20_main:visited {
+  background-color: none;
+  color:#AEEADD;
+  text-decoration: none;
+}
+a.feb20_main:hover {
+  background-color: none;
+  color: white;
+  text-shadow: -2px -2px 5px #00664d, 2px -2px 5px #00664d, -2px 2px 5px #00664d, 2px 2px 5px #00664d;
+  text-decoration: none;
+}
+a.feb20_main:active {
+  background-color: none;
+  color: white;
+  text-shadow: -1px -1px 3px #00664d, 1px -1px 3px #00664d, -1px 1px 3px #00664d, 1px 1px 3px #00664d;
+  text-decoration: none;
+}
 
 /*march 04 specific change*/
 .mar04 {
@@ -172,6 +196,37 @@ a.mar04_menu:hover {
 a.mar04_menu:active {
   background-color: none;
   color: #F2EEE4;
+  text-shadow: -1px -1px 3px #CFCCC2, 1px -1px 3px #CFCCC2, -1px 1px 3px #CFCCC2, 1px 1px 3px #CFCCC2;
+  text-decoration: none;
+}
+.mar04_main {
+  background-color: #F2EEE4;
+}
+.mar04_main span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 15px;
+}
+a.mar04_main:link {
+  background-color: none;
+  color:#F2EEE4;
+  text-decoration: none;
+}
+a.mar04_main:visited {
+  background-color: none;
+  color:#F2EEE4;
+  text-decoration: none;
+}
+a.mar04_main:hover {
+  background-color: none;
+  color: white;
+  text-shadow: -2px -2px 5px #CFCCC2, 2px -2px 5px #CFCCC2, -2px 2px 5px #CFCCC2, 2px 2px 5px #CFCCC2;
+  text-decoration: none;
+}
+a.mar04_main:active {
+  background-color: none;
+  color: white;
   text-shadow: -1px -1px 3px #CFCCC2, 1px -1px 3px #CFCCC2, -1px 1px 3px #CFCCC2, 1px 1px 3px #CFCCC2;
   text-decoration: none;
 }
@@ -279,4 +334,27 @@ nav{
     margin: 0 auto;
     display: block;
     object-position: center;
+}
+.narrow {
+  height: 60%;
+  margin-left: 20px;
+}
+/*home page box css*/
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box div {
+  outline: 1px solid black;
+}
+
+.small {
+  width: 100px;
+  padding-top: 100px;
+}
+
+.large {
+  width: 200px;
+  padding-top: 200px;
 }
