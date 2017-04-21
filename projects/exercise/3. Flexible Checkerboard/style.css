@@ -1,0 +1,15 @@
+/* Your styles go here */
+body{
+  margin: 0px;
+}
+div {
+  width: 33.3vw;
+  height: 33.3vh;
+  margin: 0;
+  display: flex;
+  float: left;
+}
+.green {
+  background-color: rgb(202,222,30)}
+.blue {
+  background-color: rgb(96,125,141)}

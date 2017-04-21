@@ -1,0 +1,10 @@
+/* Your styles go here */
+.box {
+  background-color: gainsboro;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  display: inline-block;
+  padding: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  }

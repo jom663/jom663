@@ -1,0 +1,22 @@
+/* Your styles go here */
+.box {
+  display: inline-block;
+  border: solid 2px;
+  padding: 10px;
+  margin: 20px;
+  padding-bottom: 0;
+  text-align:left;
+  }
+.quote {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+.person {
+  font-family: 'courir',monospace;
+  margin: 0''
+}
+@media all and (max-width: 600px) {
+  .quote {font-size: 6vmin;}
+  .person {font-size:;}
+}
