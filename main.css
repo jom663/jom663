@@ -156,4 +156,6 @@ footer{
   nav {
     font-size: 2.4vw;}
   #menu {margin: 0}
+  li {margin: 5px;
+  padding-top: 20px;}
 }
