@@ -1,1 +1,6 @@
-/* Your styles go here */
+body {
+  transition: 0.3s all;
+  background-color: #ffffff;
+  margin: 0px;
+  height: 2000px;
+}
